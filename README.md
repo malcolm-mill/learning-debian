@@ -19,6 +19,8 @@ gruezi.1.
 
 <p>Browse the core files first to see what you're making then run build-gruezi. </p>
 
+<p>If you want to install it onto your system, from ~/learning-debian/ run 'sudo dpkg --install gruezi.deb' (just to see it working). You won't want this around so remember to remove with 'sudo apt-get purge gruezi'. If you want to make modifications, rebuild and re-install you must delete directory '~/learning-debian/ and all its contents. The build-gruezi script expects it not to exist each time it's run.</p>
+
 <p>Then, play with the contents and filenames to build your own package that does something a bit more.</p>
 
 <p>Please note: file permissions are very lenient here (I was having trouble running the script with the permissions Krafft uses).</p>
