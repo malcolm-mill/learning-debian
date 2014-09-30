@@ -1,0 +1,9 @@
+Package: gruezi
+Section: misc
+Priority: extra
+Maintainer: Wilhelm Tell <hero@suiss.ch>
+Architecture: all
+Version: 1.0-1
+Description: greets you the Swiss way
+ gruezi is a simple script to great its caller in all four
+ languages spoken in Switzerland
