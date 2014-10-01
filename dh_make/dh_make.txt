@@ -1,0 +1,16 @@
+Example workflow involving Git, dh_make and a single bash script
+=============================================================================
+1. Create script in git repository
+2. When ready to release create a version tag vX.Y.Z
+3. Create a new git branch from the tag snapshot caling it something like vX.Y.Z.deb
+4. Create a folder name following the form: <package>-<version>
+5. Move all source files into this folder
+6. In this folder run 'dh_make --indep --createorig' and confirm details.
+7. Change dir to ./debian and correct details from step 6.
+
+
+The dh_make command will create a folder 'debian' complete with examples and templates to help you integrate your package into the running of your system. 
+These include: manpages, runlevel initialisation, registration as cron-job, pre- and post-install/remove scripts, creation of an entry in the system menu. 
+
+
+ 
